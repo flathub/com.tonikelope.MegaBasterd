@@ -28,4 +28,7 @@
   <releases>
     <release date="2020-06-28" version="7.28"/>
   </releases>
+  <releases>
+    <release date="2020-10-18" version="7.29"/>
+  </releases>
 </component>
