@@ -48,7 +48,7 @@ modules:
         path: icon-128.png
       - type: file
         path: icon-256.png
-      - maven-dependencies-new.yaml
+      - maven-dependencies.yaml
     modules:
       - name: openjdk
         buildsystem: simple
