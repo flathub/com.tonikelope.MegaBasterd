@@ -1,0 +1,39 @@
+From 8c75e5db9b39a18a9f72426d4bb32aff62ed9719 Mon Sep 17 00:00:00 2001
+From: guihkx <guihkx@users.noreply.github.com>
+Date: Tue, 29 Dec 2020 20:17:03 -0300
+Subject: [PATCH] Improve opening URLs in external browser
+
+---
+ .../com/tonikelope/megabasterd/MiscTools.java    | 16 ++++++++++++++--
+ 1 file changed, 14 insertions(+), 2 deletions(-)
+
+diff --git a/src/main/java/com/tonikelope/megabasterd/MiscTools.java b/src/main/java/com/tonikelope/megabasterd/MiscTools.java
+index cd6c4b079..59c1fd8aa 100644
+--- a/src/main/java/com/tonikelope/megabasterd/MiscTools.java
++++ b/src/main/java/com/tonikelope/megabasterd/MiscTools.java
+@@ -1110,8 +1110,20 @@ public class MiscTools {
+     public static void openBrowserURL(final String url) {
+ 
+         try {
+-            Desktop.getDesktop().browse(new URI(url));
+-        } catch (URISyntaxException | IOException ex) {
++            Logger.getLogger(MiscTools.class.getName()).log(Level.INFO, "Trying to open URL in external browser: {0}", url);
++
++            if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
++                Desktop.getDesktop().browse(new URI(url));
++                return;
++            }
++            if (System.getProperty("os.name").toLowerCase().contains("nux")) {
++                Process p = Runtime.getRuntime().exec(new String[] { "xdg-open", url });
++                p.waitFor();
++                p.destroy();
++                return;
++            }
++            Logger.getLogger(MiscTools.class.getName()).log(Level.WARNING, "Unable to open URL: Unsupported platform.", url);
++        } catch (Exception ex) {
+             Logger.getLogger(MiscTools.class.getName()).log(Level.SEVERE, ex.getMessage());
+         }
+     }
+-- 
+2.29.2
+
