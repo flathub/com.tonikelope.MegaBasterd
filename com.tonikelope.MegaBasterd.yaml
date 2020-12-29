@@ -36,6 +36,8 @@ modules:
       - type: archive
         url: https://github.com/tonikelope/megabasterd/archive/v7.32.tar.gz
         sha256: 7f7d32d09d7e0a23c599699662ce564d63f7aab11a622b4d3e1eabe89410c9a2
+      - type: patch
+        path: patches/0001-Improve-opening-URLs-in-external-browser.patch
       - type: file
         path: wrapper.sh
       - type: file
