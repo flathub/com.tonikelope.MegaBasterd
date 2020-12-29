@@ -25,7 +25,7 @@ modules:
         JAVA_HOME: /usr/lib/sdk/openjdk11/jvm/openjdk-11
     build-commands:
       - mvn clean package
-      - install -Dm644 "target/MegaBasterd-7.31-jar-with-dependencies.jar" "${FLATPAK_DEST}/share/com.tonikelope.MegaBasterd/megabasterd.jar"
+      - install -Dm644 "target/MegaBasterd-7.32-jar-with-dependencies.jar" "${FLATPAK_DEST}/share/com.tonikelope.MegaBasterd/megabasterd.jar"
       - install -Dm755 -t "${FLATPAK_DEST}/bin" "wrapper.sh"
       - install -Dm644 -t "${FLATPAK_DEST}/share/metainfo" "com.tonikelope.MegaBasterd.metainfo.xml"
       - install -Dm644 -t "${FLATPAK_DEST}/share/applications" "com.tonikelope.MegaBasterd.desktop"
@@ -34,8 +34,8 @@ modules:
       - install -Dm644 "icon-256.png" "${FLATPAK_DEST}/share/icons/hicolor/256x256/apps/com.tonikelope.MegaBasterd.png"
     sources:
       - type: archive
-        url: https://github.com/tonikelope/megabasterd/archive/v7.31.tar.gz
-        sha256: ad9a73d3ac643ba57aafe303792e40b2556504216bf2ef7a5cb632e643c22277
+        url: https://github.com/tonikelope/megabasterd/archive/v7.32.tar.gz
+        sha256: 7f7d32d09d7e0a23c599699662ce564d63f7aab11a622b4d3e1eabe89410c9a2
       - type: file
         path: wrapper.sh
       - type: file
