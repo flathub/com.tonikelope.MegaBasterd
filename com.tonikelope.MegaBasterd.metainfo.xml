@@ -26,7 +26,8 @@
   <url type="bugtracker">https://github.com/tonikelope/megabasterd/issues</url>
   <content_rating type="oars-1.1"/>
   <releases>
-    <release date="2020-12-31" version="7.37"/>
+    <release date="2021-01-04" version="7.38"/>
+    <release date="2021-01-01" version="7.37"/>
     <release date="2020-12-31" version="7.35"/>
     <release date="2020-12-31" version="7.34"/>
     <release date="2020-12-30" version="7.33"/>
