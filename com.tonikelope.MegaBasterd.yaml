@@ -36,11 +36,6 @@ modules:
       - type: archive
         url: https://github.com/tonikelope/megabasterd/archive/v7.38.tar.gz
         sha256: 41e876cbb9707faef9d0f5fd73a9313f565f9dfd5ebc9c0cc019cf0a8ecfec8d
-        x-checker-data:
-          type: html
-          url: https://github.com/tonikelope/megabasterd/releases/latest
-          version-pattern: /releases/tag/v([\d.]+)
-          url-template: https://github.com/tonikelope/megabasterd/archive/v$version.tar.gz
       - type: file
         path: wrapper.sh
       - type: file
