@@ -34,8 +34,8 @@ modules:
       - install -Dm644 "icon-256.png" "${FLATPAK_DEST}/share/icons/hicolor/256x256/apps/com.tonikelope.MegaBasterd.png"
     sources:
       - type: archive
-        url: https://github.com/tonikelope/megabasterd/archive/v7.39.tar.gz
-        sha256: 1a21ccbad355d3cc4c07f449ff9c229447dccfe1c8856ce663377329486336fa
+        url: https://github.com/tonikelope/megabasterd/archive/v7.40.tar.gz
+        sha256: 319f8081ed50992d282c8ce17b5d62618fa30656576dfc0a9e0ba01bf05ed85e
       - type: file
         path: wrapper.sh
       - type: file
