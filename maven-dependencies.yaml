@@ -43,13 +43,13 @@
   url: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.pom
   sha1: cef2444d3862b81dc73e40d37d2d0cb0c949e1ec
 - type: file
-  dest: .m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10.5
-  url: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.5/jackson-databind-2.9.10.5.jar
-  sha1: 676c202a516e7d759624aa826904c12fde4de123
+  dest: .m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10.7
+  url: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.7/jackson-databind-2.9.10.7.jar
+  sha1: caa7f72b6b488e827cb2c8d72615fc8a53176e47
 - type: file
-  dest: .m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10.5
-  url: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.5/jackson-databind-2.9.10.5.pom
-  sha1: 42c65cc01f3eb21a0e6162e229d4852053dbbaa4
+  dest: .m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10.7
+  url: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.7/jackson-databind-2.9.10.7.pom
+  sha1: ef1a8c147e8b9465c155a726821d7c5efd3677ea
 - type: file
   dest: .m2/repository/com/fasterxml/jackson/jackson-base/2.9.6
   url: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.9.6/jackson-base-2.9.6.pom
@@ -59,9 +59,9 @@
   url: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.9.10/jackson-base-2.9.10.pom
   sha1: 0cd2ac22d49c4002c5e87e9187eb88e45005d9f0
 - type: file
-  dest: .m2/repository/com/fasterxml/jackson/jackson-base/2.9.10.20200621
-  url: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.9.10.20200621/jackson-base-2.9.10.20200621.pom
-  sha1: 13db83d11fc44fe7da6c9204650d765b687d7c3b
+  dest: .m2/repository/com/fasterxml/jackson/jackson-base/2.9.10.20201202
+  url: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.9.10.20201202/jackson-base-2.9.10.20201202.pom
+  sha1: 0af66236f464b5139cc76e60455ed1107cf50f5a
 - type: file
   dest: .m2/repository/com/fasterxml/jackson/jackson-bom/2.9.6
   url: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.9.6/jackson-bom-2.9.6.pom
@@ -71,9 +71,9 @@
   url: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.9.10/jackson-bom-2.9.10.pom
   sha1: 5da11a1e84cee70b0fa6f61f70729ae07da12a92
 - type: file
-  dest: .m2/repository/com/fasterxml/jackson/jackson-bom/2.9.10.20200621
-  url: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.9.10.20200621/jackson-bom-2.9.10.20200621.pom
-  sha1: 130902cb345f6fbe98e049c4b34b644e00a7af19
+  dest: .m2/repository/com/fasterxml/jackson/jackson-bom/2.9.10.20201202
+  url: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.9.10.20201202/jackson-bom-2.9.10.20201202.pom
+  sha1: 0070167f31e951d50cccd759e7acfa056b3ee96a
 - type: file
   dest: .m2/repository/com/fasterxml/jackson/jackson-parent/2.9.1.1
   url: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.9.1.1/jackson-parent-2.9.1.1.pom
