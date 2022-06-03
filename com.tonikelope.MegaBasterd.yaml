@@ -4,7 +4,7 @@ runtime-version: '21.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.openjdk17
-command: wrapper.sh
+command: megabasterd
 finish-args:
   - --share=network
   - --socket=x11
@@ -26,7 +26,7 @@ modules:
     build-commands:
       - mvn clean package
       - install -Dm644 target/MegaBasterd-*-jar-with-dependencies.jar /app/share/com.tonikelope.MegaBasterd/megabasterd.jar
-      - install -Dm755 -t /app/bin wrapper.sh
+      - install -Dm755 -t /app/bin megabasterd
       - install -Dm644 -t /app/share/metainfo com.tonikelope.MegaBasterd.metainfo.xml
       - install -Dm644 -t /app/share/applications com.tonikelope.MegaBasterd.desktop
       - install -Dm644 icon-64.png /app/share/icons/hicolor/64x64/apps/com.tonikelope.MegaBasterd.png
@@ -36,8 +36,10 @@ modules:
       - type: archive
         url: https://github.com/tonikelope/megabasterd/archive/v7.53.tar.gz
         sha256: dd5bb58870aff479dd41b2946e3cd39d390ed8a6113d012b5154973c19c4722a
-      - type: file
-        path: wrapper.sh
+      - type: script
+        dest-filename: megabasterd
+        commands:
+          - exec java -jar /app/share/com.tonikelope.MegaBasterd/megabasterd.jar $@
       - type: file
         path: com.tonikelope.MegaBasterd.metainfo.xml
       - type: file
