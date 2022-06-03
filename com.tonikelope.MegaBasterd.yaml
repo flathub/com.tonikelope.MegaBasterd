@@ -25,13 +25,13 @@ modules:
         JAVA_HOME: /usr/lib/sdk/openjdk11/jvm/openjdk-11
     build-commands:
       - mvn clean package
-      - install -Dm644 target/MegaBasterd-*-jar-with-dependencies.jar "${FLATPAK_DEST}/share/com.tonikelope.MegaBasterd/megabasterd.jar"
-      - install -Dm755 -t "${FLATPAK_DEST}/bin" "wrapper.sh"
-      - install -Dm644 -t "${FLATPAK_DEST}/share/metainfo" "com.tonikelope.MegaBasterd.metainfo.xml"
-      - install -Dm644 -t "${FLATPAK_DEST}/share/applications" "com.tonikelope.MegaBasterd.desktop"
-      - install -Dm644 "icon-64.png" "${FLATPAK_DEST}/share/icons/hicolor/64x64/apps/com.tonikelope.MegaBasterd.png"
-      - install -Dm644 "icon-128.png" "${FLATPAK_DEST}/share/icons/hicolor/128x128/apps/com.tonikelope.MegaBasterd.png"
-      - install -Dm644 "icon-256.png" "${FLATPAK_DEST}/share/icons/hicolor/256x256/apps/com.tonikelope.MegaBasterd.png"
+      - install -Dm644 target/MegaBasterd-*-jar-with-dependencies.jar /app/share/com.tonikelope.MegaBasterd/megabasterd.jar
+      - install -Dm755 -t /app/bin wrapper.sh
+      - install -Dm644 -t /app/share/metainfo com.tonikelope.MegaBasterd.metainfo.xml
+      - install -Dm644 -t /app/share/applications com.tonikelope.MegaBasterd.desktop
+      - install -Dm644 icon-64.png /app/share/icons/hicolor/64x64/apps/com.tonikelope.MegaBasterd.png
+      - install -Dm644 icon-128.png /app/share/icons/hicolor/128x128/apps/com.tonikelope.MegaBasterd.png
+      - install -Dm644 icon-256.png /app/share/icons/hicolor/256x256/apps/com.tonikelope.MegaBasterd.png
     sources:
       - type: archive
         url: https://github.com/tonikelope/megabasterd/archive/v7.53.tar.gz
@@ -54,4 +54,3 @@ modules:
         buildsystem: simple
         build-commands:
           - /usr/lib/sdk/openjdk11/install.sh
-
