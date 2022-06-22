@@ -26,31 +26,31 @@
   <url type="bugtracker">https://github.com/tonikelope/megabasterd/issues</url>
   <content_rating type="oars-1.1"/>
   <releases>
-    <release date="2022-06-03" version="7.54"/>
-    <release date="2022-06-03" version="7.53"/>
-    <release date="2022-06-02" version="7.52"/>
-    <release date="2022-06-02" version="7.51"/>
-    <release date="2022-02-27" version="7.50"/>
-    <release date="2021-11-06" version="7.49"/>
-    <release date="2021-11-06" version="7.48"/>
-    <release date="2021-10-31" version="7.47"/>
-    <release date="2021-10-17" version="7.46"/>
-    <release date="2021-10-13" version="7.45"/>
-    <release date="2021-10-12" version="7.44"/>
-    <release date="2021-08-15" version="7.43"/>
-    <release date="2021-06-22" version="7.42"/>
-    <release date="2021-06-13" version="7.41"/>
-    <release date="2021-01-13" version="7.40"/>
-    <release date="2021-01-12" version="7.39"/>
-    <release date="2021-01-04" version="7.38"/>
-    <release date="2021-01-01" version="7.37"/>
-    <release date="2020-12-31" version="7.35"/>
-    <release date="2020-12-31" version="7.34"/>
-    <release date="2020-12-30" version="7.33"/>
-    <release date="2020-12-29" version="7.32"/>
-    <release date="2020-12-12" version="7.31"/>
-    <release date="2020-10-31" version="7.30"/>
-    <release date="2020-10-18" version="7.29"/>
-    <release date="2020-06-28" version="7.28"/>
+    <release version="7.54" date="2022-06-03"/>
+    <release version="7.53" date="2022-06-03"/>
+    <release version="7.52" date="2022-06-02"/>
+    <release version="7.51" date="2022-06-02"/>
+    <release version="7.50" date="2022-02-27"/>
+    <release version="7.49" date="2021-11-06"/>
+    <release version="7.48" date="2021-11-06"/>
+    <release version="7.47" date="2021-10-31"/>
+    <release version="7.46" date="2021-10-17"/>
+    <release version="7.45" date="2021-10-13"/>
+    <release version="7.44" date="2021-10-12"/>
+    <release version="7.43" date="2021-08-15"/>
+    <release version="7.42" date="2021-06-22"/>
+    <release version="7.41" date="2021-06-13"/>
+    <release version="7.40" date="2021-01-13"/>
+    <release version="7.39" date="2021-01-12"/>
+    <release version="7.38" date="2021-01-04"/>
+    <release version="7.37" date="2021-01-01"/>
+    <release version="7.35" date="2020-12-31"/>
+    <release version="7.34" date="2020-12-31"/>
+    <release version="7.33" date="2020-12-30"/>
+    <release version="7.32" date="2020-12-29"/>
+    <release version="7.31" date="2020-12-12"/>
+    <release version="7.30" date="2020-10-31"/>
+    <release version="7.29" date="2020-10-18"/>
+    <release version="7.28" date="2020-06-28"/>
   </releases>
 </component>

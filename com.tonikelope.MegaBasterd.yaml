@@ -39,8 +39,9 @@ modules:
         x-checker-data:
           type: json
           url: https://api.github.com/repos/tonikelope/megabasterd/releases/latest
-          url-query: '"https://github.com/tonikelope/megabasterd/archive/" + $version + ".tar.gz"'
-          version-query: .tag_name
+          url-query: '"https://github.com/tonikelope/megabasterd/archive/v" + $version
+            + ".tar.gz"'
+          version-query: .tag_name | sub("^v"; "")
       - type: script
         dest-filename: megabasterd
         commands:
