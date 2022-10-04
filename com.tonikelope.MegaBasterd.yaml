@@ -20,9 +20,9 @@ modules:
     buildsystem: simple
     build-options:
       env:
-        PATH: /app/bin:/usr/bin:/usr/lib/sdk/openjdk11/bin
+        PATH: /app/bin:/usr/bin:/usr/lib/sdk/openjdk17/bin
         MAVEN_OPTS: -Dmaven.repo.local=.m2/repository
-        JAVA_HOME: /usr/lib/sdk/openjdk11/jvm/openjdk-11
+        JAVA_HOME: /usr/lib/sdk/openjdk17/jvm/openjdk-17
     build-commands:
       - mvn clean package
       - install -Dm644 target/MegaBasterd-*-jar-with-dependencies.jar /app/share/com.tonikelope.MegaBasterd/megabasterd.jar
@@ -61,4 +61,4 @@ modules:
       - name: openjdk
         buildsystem: simple
         build-commands:
-          - /usr/lib/sdk/openjdk11/install.sh
+          - /usr/lib/sdk/openjdk17/install.sh
