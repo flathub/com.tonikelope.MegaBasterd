@@ -57,6 +57,9 @@ modules:
       - type: file
         path: icon-256.png
       - maven-dependencies.yaml
+      # https://github.com/tonikelope/megabasterd/pull/464
+      - type: patch
+        path: detect-default-downloads-folder.patch
     modules:
       - name: openjdk
         buildsystem: simple
