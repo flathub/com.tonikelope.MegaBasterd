@@ -1,0 +1,64 @@
+From 2d1b38d4a58341aa496fe690d10b8c91d965e65f Mon Sep 17 00:00:00 2001
+From: guihkx <626206+guihkx@users.noreply.github.com>
+Date: Tue, 4 Oct 2022 04:12:56 -0300
+Subject: [PATCH] Linux: Use `xdg-user-dir` to get the default Downloads folder
+ path
+
+---
+ .../com/tonikelope/megabasterd/MainPanel.java | 22 ++++++++++++++++++-
+ .../megabasterd/SettingsDialog.java           |  2 +-
+ 2 files changed, 22 insertions(+), 2 deletions(-)
+
+diff --git a/src/main/java/com/tonikelope/megabasterd/MainPanel.java b/src/main/java/com/tonikelope/megabasterd/MainPanel.java
+index 211e5ea69..0b3359dcf 100644
+--- a/src/main/java/com/tonikelope/megabasterd/MainPanel.java
++++ b/src/main/java/com/tonikelope/megabasterd/MainPanel.java
+@@ -18,6 +18,8 @@
+ import java.awt.event.ActionListener;
+ import java.awt.event.WindowEvent;
+ import static java.awt.event.WindowEvent.WINDOW_CLOSING;
++import java.io.BufferedReader;
++import java.io.InputStreamReader;
+ import java.io.File;
+ import java.io.FileNotFoundException;
+ import java.io.FileOutputStream;
+@@ -680,7 +682,25 @@ public void loadUserSettings() {
+         _default_download_path = selectSettingValue("default_down_dir");
+ 
+         if (_default_download_path == null) {
+-            _default_download_path = ".";
++            _default_download_path = Paths.get(".").toAbsolutePath().normalize().toString();
++            // On most Linux distributions, we can find the path of the default 'Downloads' directory with:
++            // $ xdg-user-dir DOWNLOAD
++            if (System.getProperty("os.name").toLowerCase().contains("nux")) {
++                try {
++                    Process p = Runtime.getRuntime().exec(new String[] { "xdg-user-dir", "DOWNLOAD" });
++                    BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
++                    // We only read a single line from the command output and then exit.
++                    String path = in.readLine();
++                    p.destroy();
++
++                    if (new File(path).isDirectory()) {
++                        _default_download_path = path;
++                    }
++                } catch (Exception ex) {
++                    Logger.getLogger(MainPanel.class.getName()).log(Level.WARNING, "Unable to get default Downloads folder: {0}", ex.getMessage());
++                }
++            }
++            Logger.getLogger(MainPanel.class.getName()).log(Level.INFO, "Downloads folder not set, using this one as default: {0}", _default_download_path);
+         }
+ 
+         String limit_dl_speed = selectSettingValue("limit_download_speed");
+diff --git a/src/main/java/com/tonikelope/megabasterd/SettingsDialog.java b/src/main/java/com/tonikelope/megabasterd/SettingsDialog.java
+index 8dbb9aa01..028c6f4f3 100644
+--- a/src/main/java/com/tonikelope/megabasterd/SettingsDialog.java
++++ b/src/main/java/com/tonikelope/megabasterd/SettingsDialog.java
+@@ -174,7 +174,7 @@ public SettingsDialog(MainPanelView parent, boolean modal) {
+ 
+             String default_download_dir = DBTools.selectSettingValue("default_down_dir");
+ 
+-            default_download_dir = Paths.get(default_download_dir == null ? MainPanel.MEGABASTERD_HOME_DIR : default_download_dir).toAbsolutePath().normalize().toString();
++            default_download_dir = (default_download_dir == null ? _main_panel.getDefault_download_path() : default_download_dir);
+ 
+             _download_path = default_download_dir;
+ 
