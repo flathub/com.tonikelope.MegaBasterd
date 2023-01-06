@@ -3,6 +3,26 @@
   url: https://repo.maven.apache.org/maven2/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.pom
   sha256: 770471090ca40a17b9e436ee2ec00819be42042da6f4085ece1d37916dc08ff9
 - type: file
+  dest: .m2/repository/ch/qos/logback/logback-classic/1.0.0
+  url: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.0.0/logback-classic-1.0.0.jar
+  sha256: 8c31745b6889f77399cc2c9b2e67bb0aa68f1dc8ed5db45ed469ac142646b352
+- type: file
+  dest: .m2/repository/ch/qos/logback/logback-classic/1.0.0
+  url: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.0.0/logback-classic-1.0.0.pom
+  sha256: e082d199e7c958bdb43bc976f733a1e8d1f6910fb1e171a159acc6896ac54fae
+- type: file
+  dest: .m2/repository/ch/qos/logback/logback-core/1.0.0
+  url: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.0.0/logback-core-1.0.0.jar
+  sha256: 2613fc1a108c1bc392f8b54ffd6aed4e8bfbcd6a5216d851dc200dedf538be1f
+- type: file
+  dest: .m2/repository/ch/qos/logback/logback-core/1.0.0
+  url: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.0.0/logback-core-1.0.0.pom
+  sha256: eb6d0dc8cfe635df3454edddd852dee42bc7d1d8dce3dc42e9f54d7cd3f14b22
+- type: file
+  dest: .m2/repository/ch/qos/logback/logback-parent/1.0.0
+  url: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.0.0/logback-parent-1.0.0.pom
+  sha256: 88f367631ec69c14ab7931f40a294f49229943594231050d2d5467ec5ba2d1d0
+- type: file
   dest: .m2/repository/classworlds/classworlds/1.1
   url: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1/classworlds-1.1.jar
   sha256: 4e3e0ad158ec60917e0de544c550f31cd65d5a97c3af1c1968bf427e4a9df2e4
@@ -86,6 +106,14 @@
   dest: .m2/repository/commons-cli/commons-cli/1.0
   url: https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.0/commons-cli-1.0.pom
   sha256: 97ee40f4e80ca5ecc20162f4e97ee1adfeac1b45ba88b923d5a521e487c9c407
+- type: file
+  dest: .m2/repository/commons-cli/commons-cli/1.1
+  url: https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.1/commons-cli-1.1.jar
+  sha256: 7c0c4dc03175c3a64c5b112592b70302d88be9738888b8c04029ab29ea3a3641
+- type: file
+  dest: .m2/repository/commons-cli/commons-cli/1.1
+  url: https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.1/commons-cli-1.1.pom
+  sha256: a9c281a6ce06276f6fb3e93944532c81a3a6657d1ca1a8cd7161064e097c7c45
 - type: file
   dest: .m2/repository/commons-lang/commons-lang/2.1
   url: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.1/commons-lang-2.1.jar
@@ -1403,6 +1431,14 @@
   url: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.8/plexus-utils-3.0.8.pom
   sha256: 0f0794dc7bdd60775d1b1e9bf70c55f2e4051bcd3d5e263a56c678080db3bbc1
 - type: file
+  dest: .m2/repository/org/sejda/webp-imageio/webp-imageio-sejda/0.1.0
+  url: https://repo.maven.apache.org/maven2/org/sejda/webp-imageio/webp-imageio-sejda/0.1.0/webp-imageio-sejda-0.1.0.jar
+  sha256: 22897053ec8dd8834f635b8e16af88301d6b86f71775b27055e34561870ced90
+- type: file
+  dest: .m2/repository/org/sejda/webp-imageio/webp-imageio-sejda/0.1.0
+  url: https://repo.maven.apache.org/maven2/org/sejda/webp-imageio/webp-imageio-sejda/0.1.0/webp-imageio-sejda-0.1.0.pom
+  sha256: f16e9870703eb33d262c589ab2fe5bae42f74bea85d677ffd6c1c5630b178724
+- type: file
   dest: .m2/repository/org/slf4j/jcl-over-slf4j/1.5.6
   url: https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.pom
   sha256: d71d7748e68bb9cb7ad38b95d17c0466e31fc1f4d15bb1e635f3ebad34a38ff3
@@ -1411,6 +1447,18 @@
   url: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.pom
   sha256: 91b0a0d016b8c0cba1ddd8a5c59e5bf5c2a9b49b95577e8e38927a7fdff55ce8
 - type: file
+  dest: .m2/repository/org/slf4j/slf4j-api/1.6.4
+  url: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.pom
+  sha256: d40df2ad523e8ff7461eedd5a0e7c21e8f05f0e8f9983387b3588538a5564540
+- type: file
+  dest: .m2/repository/org/slf4j/slf4j-api/1.7.30
+  url: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar
+  sha256: cdba07964d1bb40a0761485c6b1e8c2f8fd9eb1d19c53928ac0d7f9510105c57
+- type: file
+  dest: .m2/repository/org/slf4j/slf4j-api/1.7.30
+  url: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom
+  sha256: 7e0747751e9b67e19dcb5206f04ea22cc03d250c422426402eadd03513f2c314
+- type: file
   dest: .m2/repository/org/slf4j/slf4j-jdk14/1.5.6
   url: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.pom
   sha256: 85f97344eeeed2714eda6f800aa712c1aa7405b0d7f98e207499363f82f37eec
@@ -1418,6 +1466,14 @@
   dest: .m2/repository/org/slf4j/slf4j-parent/1.5.6
   url: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.5.6/slf4j-parent-1.5.6.pom
   sha256: b9d17d6f915b389c7dd77f170d6fcc77f1c7d6c7362fefb146043d8412defddd
+- type: file
+  dest: .m2/repository/org/slf4j/slf4j-parent/1.6.4
+  url: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.pom
+  sha256: 76a062532f0a2503884f33ce557eae3cae2f2d38fd8db0c43e3a70405606cc85
+- type: file
+  dest: .m2/repository/org/slf4j/slf4j-parent/1.7.30
+  url: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.pom
+  sha256: 11647956e48a0c5bfb3ac33f6da7e83f341002b6857efd335a505b687be34b75
 - type: file
   dest: .m2/repository/org/sonatype/forge/forge-parent/3
   url: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/3/forge-parent-3.pom
@@ -1478,3 +1534,19 @@
   dest: .m2/repository/org/xerial/sqlite-jdbc/3.25.2
   url: https://repo.maven.apache.org/maven2/org/xerial/sqlite-jdbc/3.25.2/sqlite-jdbc-3.25.2.pom
   sha256: 5806cf36dd28bfe961f7fe12679f4a2748a03e7a1d0070c22c411c19f01f266a
+- type: file
+  dest: .m2/repository/xuggle/xuggle-xuggler-server-all/5.7.0-SNAPSHOT
+  url: https://dl.cloudsmith.io/public/olivier-ayache/xuggler/maven/xuggle/xuggle-xuggler-server-all/5.7.0-SNAPSHOT/xuggle-xuggler-server-all-5.7.0-20210422.000415-2.jar
+  sha256: 5caff5b64a5313319b2ffe9c0e2fffef2dcc1a36b9a94b3990376866a7594524
+- type: file
+  dest: .m2/repository/xuggle/xuggle-xuggler-server-all/5.7.0-SNAPSHOT
+  url: https://dl.cloudsmith.io/public/olivier-ayache/xuggler/maven/xuggle/xuggle-xuggler-server-all/5.7.0-SNAPSHOT/xuggle-xuggler-server-all-5.7.0-20210422.000415-2.pom
+  sha256: e1ac2a303b2ef51a5f35ecbb77d80a2c471f49c082577ec5f47a1b427a978e74
+- type: file
+  dest: .m2/repository/xuggle/xuggle-xuggler-server-all/5.7.0-SNAPSHOT
+  url: https://dl.cloudsmith.io/public/olivier-ayache/xuggler/maven/xuggle/xuggle-xuggler-server-all/5.7.0-SNAPSHOT/xuggle-xuggler-server-all-5.7.0-SNAPSHOT.jar
+  sha256: 5caff5b64a5313319b2ffe9c0e2fffef2dcc1a36b9a94b3990376866a7594524
+- type: file
+  dest: .m2/repository/xuggle/xuggle-xuggler-server-all/5.7.0-SNAPSHOT
+  url: https://dl.cloudsmith.io/public/olivier-ayache/xuggler/maven/xuggle/xuggle-xuggler-server-all/5.7.0-SNAPSHOT/xuggle-xuggler-server-all-5.7.0-SNAPSHOT.pom
+  sha256: e1ac2a303b2ef51a5f35ecbb77d80a2c471f49c082577ec5f47a1b427a978e74
