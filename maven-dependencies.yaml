@@ -115,6 +115,14 @@
   url: https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.1/commons-cli-1.1.pom
   sha256: a9c281a6ce06276f6fb3e93944532c81a3a6657d1ca1a8cd7161064e097c7c45
 - type: file
+  dest: .m2/repository/commons-io/commons-io/2.11.0
+  url: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar
+  sha256: 961b2f6d87dbacc5d54abf45ab7a6e2495f89b75598962d8c723cea9bc210908
+- type: file
+  dest: .m2/repository/commons-io/commons-io/2.11.0
+  url: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.pom
+  sha256: 2e016fd7e3244b5f2c20acad834d93aa4790486ee1e4564641361a3e831eef59
+- type: file
   dest: .m2/repository/commons-lang/commons-lang/2.1
   url: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.1/commons-lang-2.1.jar
   sha256: 2ded7343dc8e57decd5e6302337139be020fdd885a2935925e8d575975e480b9
@@ -207,6 +215,10 @@
   url: https://repo.maven.apache.org/maven2/org/apache/apache/19/apache-19.pom
   sha256: 91f7a33096ea69bac2cbaf6d01feb934cac002c48d8c8cfa9c240b40f1ec21df
 - type: file
+  dest: .m2/repository/org/apache/apache/23
+  url: https://repo.maven.apache.org/maven2/org/apache/apache/23/apache-23.pom
+  sha256: bc10624e0623f36577fac5639ca2936d3240ed152fb6d8d533ab4d270543491c
+- type: file
   dest: .m2/repository/org/apache/commons/commons-collections4/4.3
   url: https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.3/commons-collections4-4.3.jar
   sha256: 62f8db7da73e551f82d70fd533834177af6bd953de4b5e85c44dc2100de4beb8
@@ -230,6 +242,10 @@
   dest: .m2/repository/org/apache/commons/commons-parent/47
   url: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/47/commons-parent-47.pom
   sha256: 8a8ecb570553bf9f1ffae211a8d4ca9ee630c17afe59293368fba7bd9b42fcb7
+- type: file
+  dest: .m2/repository/org/apache/commons/commons-parent/52
+  url: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/52/commons-parent-52.pom
+  sha256: 75dbe8f34e98e4c3ff42daae4a2f9eb4cbcd3b5f1047d54460ace906dbb4502e
 - type: file
   dest: .m2/repository/org/apache/maven/doxia/doxia/1.0-alpha-7
   url: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.0-alpha-7/doxia-1.0-alpha-7.pom
@@ -1430,6 +1446,10 @@
   dest: .m2/repository/org/codehaus/plexus/plexus-utils/3.0.8
   url: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.8/plexus-utils-3.0.8.pom
   sha256: 0f0794dc7bdd60775d1b1e9bf70c55f2e4051bcd3d5e263a56c678080db3bbc1
+- type: file
+  dest: .m2/repository/org/junit/junit-bom/5.7.2
+  url: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.7.2/junit-bom-5.7.2.pom
+  sha256: cd14aaa869991f82021c585d570d31ff342bcba58bb44233b70193771b96487b
 - type: file
   dest: .m2/repository/org/sejda/webp-imageio/webp-imageio-sejda/0.1.0
   url: https://repo.maven.apache.org/maven2/org/sejda/webp-imageio/webp-imageio-sejda/0.1.0/webp-imageio-sejda-0.1.0.jar
