@@ -34,8 +34,8 @@ modules:
       - install -Dm644 icon-256.png /app/share/icons/hicolor/256x256/apps/com.tonikelope.MegaBasterd.png
     sources:
       - type: archive
-        url: https://github.com/tonikelope/megabasterd/archive/v7.74.tar.gz
-        sha256: 8f07c832e5ad1e21b0a2e9e2452e8eda39f203e7bb64e602870a493bcc5c4af5
+        url: https://github.com/tonikelope/megabasterd/archive/v7.75.tar.gz
+        sha256: 84842bc0de5079c0156d59c5eaafcdc06e2320596d0d13a9a19660a2e98bbc55
         x-checker-data:
           type: json
           url: https://api.github.com/repos/tonikelope/megabasterd/releases/latest
