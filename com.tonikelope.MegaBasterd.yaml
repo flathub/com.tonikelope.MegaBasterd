@@ -51,11 +51,11 @@ modules:
       - type: file
         path: com.tonikelope.MegaBasterd.desktop
       - type: file
-        path: icon-64.png
+        path: icons/icon-64.png
       - type: file
-        path: icon-128.png
+        path: icons/icon-128.png
       - type: file
-        path: icon-256.png
+        path: icons/icon-256.png
       - type: patch
         path: patches/Linux-Use-xdg-user-dir-to-get-the-default-Downloads-folder.patch
       - maven-dependencies.yaml
