@@ -15,7 +15,13 @@ finish-args:
   - --env=JAVA_HOME=/app/jre
   - --filesystem=xdg-download
   - --persist=.
+
 modules:
+  - name: openjdk
+    buildsystem: simple
+    build-commands:
+      - /usr/lib/sdk/openjdk17/install.sh
+
   - name: megabasterd
     buildsystem: simple
     build-options:
@@ -59,8 +65,3 @@ modules:
       - type: patch
         path: patches/Linux-Use-xdg-user-dir-to-get-the-default-Downloads-folder.patch
       - maven-dependencies.yaml
-    modules:
-      - name: openjdk
-        buildsystem: simple
-        build-commands:
-          - /usr/lib/sdk/openjdk17/install.sh
