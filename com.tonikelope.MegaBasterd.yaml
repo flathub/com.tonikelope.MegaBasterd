@@ -40,14 +40,14 @@ modules:
       - install -Dm644 icon-256.png /app/share/icons/hicolor/256x256/apps/$FLATPAK_ID.png
     sources:
       - type: archive
-        url: https://github.com/tonikelope/megabasterd/archive/v7.76.tar.gz
-        sha256: ebd78a752d7c988a17103bd669534fea9dbfc6d8c640e80717716012822677e3
+        dest-filename: megabasterd.tar.gz
+        url: https://api.github.com/repos/tonikelope/megabasterd/tarball/v7.76
+        sha256: 4cd74155de03d50031ff98bd0ea875a3622b03aa40ce3af390107824ca23825d
         x-checker-data:
           type: json
           url: https://api.github.com/repos/tonikelope/megabasterd/releases/latest
-          url-query: '"https://github.com/tonikelope/megabasterd/archive/v" + $version
-            + ".tar.gz"'
           version-query: .tag_name | sub("^v"; "")
+          url-query: .tarball_url
       - type: script
         dest-filename: megabasterd
         commands:
