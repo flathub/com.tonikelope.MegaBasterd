@@ -6,5 +6,5 @@ Exec=megabasterd
 Categories=Network;
 Keywords=mega;megasync;
 Type=Application
-Terminal=false
+StartupWMClass=com-tonikelope-megabasterd-MainPanel
 StartupNotify=true
