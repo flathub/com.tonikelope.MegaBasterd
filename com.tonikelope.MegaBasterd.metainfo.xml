@@ -7,7 +7,9 @@
   <project_license>GPL-3.0-only</project_license>
   <developer_name>A. L. Vivar</developer_name>
   <summary>Download, upload or stream files from MEGA.nz</summary>
-  <description><p>Yet another unofficial (and ugly) cross-platform MEGA downloader/uploader/streaming suite.</p></description>
+  <description>
+    <p>Yet another unofficial (and ugly) cross-platform MEGA downloader/uploader/streaming suite.</p>
+  </description>
   <screenshots>
     <screenshot type="default">
       <caption>Main window</caption>
@@ -26,50 +28,140 @@
   <url type="bugtracker">https://github.com/tonikelope/megabasterd/issues</url>
   <content_rating type="oars-1.1"/>
   <releases>
-    <release version="7.76" date="2023-07-22"/>
-    <release version="7.75" date="2023-07-19"/>
-    <release version="7.74" date="2023-03-14"/>
-    <release version="7.73" date="2023-01-26"/>
-    <release version="7.72" date="2023-01-19"/>
-    <release version="7.71" date="2023-01-19"/>
-    <release version="7.70" date="2023-01-08"/>
-    <release version="7.69" date="2023-01-07"/>
-    <release version="7.68" date="2023-01-07"/>
-    <release version="7.66" date="2023-01-07"/>
-    <release version="7.65" date="2023-01-06"/>
-    <release version="7.64" date="2023-01-06"/>
-    <release version="7.61" date="2023-01-04"/>
-    <release version="7.60" date="2023-01-02"/>
-    <release version="7.59" date="2023-01-01"/>
-    <release version="7.58" date="2022-12-31"/>
-    <release version="7.57" date="2022-12-31"/>
-    <release version="7.56" date="2022-12-30"/>
-    <release version="7.55" date="2022-06-22"/>
-    <release version="7.54" date="2022-06-03"/>
-    <release version="7.53" date="2022-06-03"/>
-    <release version="7.52" date="2022-06-02"/>
-    <release version="7.51" date="2022-06-02"/>
-    <release version="7.50" date="2022-02-27"/>
-    <release version="7.49" date="2021-11-06"/>
-    <release version="7.48" date="2021-11-06"/>
-    <release version="7.47" date="2021-10-31"/>
-    <release version="7.46" date="2021-10-17"/>
-    <release version="7.45" date="2021-10-13"/>
-    <release version="7.44" date="2021-10-12"/>
-    <release version="7.43" date="2021-08-15"/>
-    <release version="7.42" date="2021-06-22"/>
-    <release version="7.41" date="2021-06-13"/>
-    <release version="7.40" date="2021-01-13"/>
-    <release version="7.39" date="2021-01-12"/>
-    <release version="7.38" date="2021-01-04"/>
-    <release version="7.37" date="2021-01-01"/>
-    <release version="7.35" date="2020-12-31"/>
-    <release version="7.34" date="2020-12-31"/>
-    <release version="7.33" date="2020-12-30"/>
-    <release version="7.32" date="2020-12-29"/>
-    <release version="7.31" date="2020-12-12"/>
-    <release version="7.30" date="2020-10-31"/>
-    <release version="7.29" date="2020-10-18"/>
-    <release version="7.28" date="2020-06-28"/>
+    <release version="7.76" date="2023-07-22">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.76</url>
+    </release>
+    <release version="7.75" date="2023-07-19">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.75</url>
+    </release>
+    <release version="7.74" date="2023-03-14">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.74</url>
+    </release>
+    <release version="7.73" date="2023-01-26">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.73</url>
+    </release>
+    <release version="7.72" date="2023-01-19">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.72</url>
+    </release>
+    <release version="7.71" date="2023-01-19">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.71</url>
+    </release>
+    <release version="7.70" date="2023-01-08">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.70</url>
+    </release>
+    <release version="7.69" date="2023-01-07">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.69</url>
+    </release>
+    <release version="7.68" date="2023-01-07">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.68</url>
+    </release>
+    <release version="7.66" date="2023-01-07">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.66</url>
+    </release>
+    <release version="7.65" date="2023-01-06">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.65</url>
+    </release>
+    <release version="7.64" date="2023-01-06">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.64</url>
+    </release>
+    <release version="7.61" date="2023-01-04">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.61</url>
+    </release>
+    <release version="7.60" date="2023-01-02">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.60</url>
+    </release>
+    <release version="7.59" date="2023-01-01">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.59</url>
+    </release>
+    <release version="7.58" date="2022-12-31">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.58</url>
+    </release>
+    <release version="7.57" date="2022-12-31">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.57</url>
+    </release>
+    <release version="7.56" date="2022-12-30">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.56</url>
+    </release>
+    <release version="7.55" date="2022-06-22">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.55</url>
+    </release>
+    <release version="7.54" date="2022-06-03">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.54</url>
+    </release>
+    <release version="7.53" date="2022-06-03">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.53</url>
+    </release>
+    <release version="7.52" date="2022-06-02">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.52</url>
+    </release>
+    <release version="7.51" date="2022-06-02">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.51</url>
+    </release>
+    <release version="7.50" date="2022-02-27">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.50</url>
+    </release>
+    <release version="7.49" date="2021-11-06">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.49</url>
+    </release>
+    <release version="7.48" date="2021-11-06">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.48</url>
+    </release>
+    <release version="7.47" date="2021-10-31">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.47</url>
+    </release>
+    <release version="7.46" date="2021-10-17">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.46</url>
+    </release>
+    <release version="7.45" date="2021-10-13">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.45</url>
+    </release>
+    <release version="7.44" date="2021-10-12">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.44</url>
+    </release>
+    <release version="7.43" date="2021-08-15">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.43</url>
+    </release>
+    <release version="7.42" date="2021-06-22">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.42</url>
+    </release>
+    <release version="7.41" date="2021-06-13">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.41</url>
+    </release>
+    <release version="7.40" date="2021-01-13">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.40</url>
+    </release>
+    <release version="7.39" date="2021-01-12">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.39</url>
+    </release>
+    <release version="7.38" date="2021-01-04">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.38</url>
+    </release>
+    <release version="7.37" date="2021-01-01">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.37</url>
+    </release>
+    <release version="7.35" date="2020-12-31">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.35</url>
+    </release>
+    <release version="7.34" date="2020-12-31">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.34</url>
+    </release>
+    <release version="7.33" date="2020-12-30">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.33</url>
+    </release>
+    <release version="7.32" date="2020-12-29">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.32</url>
+    </release>
+    <release version="7.31" date="2020-12-12">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.31</url>
+    </release>
+    <release version="7.30" date="2020-10-31">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.30</url>
+    </release>
+    <release version="7.29" date="2020-10-18">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.29</url>
+    </release>
+    <release version="7.28" date="2020-06-28">
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v7.28</url>
+    </release>
   </releases>
 </component>
