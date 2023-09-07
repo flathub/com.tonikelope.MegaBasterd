@@ -1,8 +1,7 @@
-From 2d1b38d4a58341aa496fe690d10b8c91d965e65f Mon Sep 17 00:00:00 2001
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
 From: guihkx <626206+guihkx@users.noreply.github.com>
 Date: Tue, 4 Oct 2022 04:12:56 -0300
-Subject: [PATCH] Linux: Use `xdg-user-dir` to get the default Downloads folder
- path
+Subject: Linux: Use `xdg-user-dir` to get the default Downloads folder path
 
 ---
  .../com/tonikelope/megabasterd/MainPanel.java | 22 ++++++++++++++++++-
@@ -10,7 +9,7 @@ Subject: [PATCH] Linux: Use `xdg-user-dir` to get the default Downloads folder
  2 files changed, 22 insertions(+), 2 deletions(-)
 
 diff --git a/src/main/java/com/tonikelope/megabasterd/MainPanel.java b/src/main/java/com/tonikelope/megabasterd/MainPanel.java
-index 3a368e0..b2362ea 100644
+index 9f69278d9..9a912d627 100644
 --- a/src/main/java/com/tonikelope/megabasterd/MainPanel.java
 +++ b/src/main/java/com/tonikelope/megabasterd/MainPanel.java
 @@ -27,6 +27,8 @@ import java.awt.event.ActionEvent;
@@ -50,10 +49,10 @@ index 3a368e0..b2362ea 100644
  
          String limit_dl_speed = selectSettingValue("limit_download_speed");
 diff --git a/src/main/java/com/tonikelope/megabasterd/SettingsDialog.java b/src/main/java/com/tonikelope/megabasterd/SettingsDialog.java
-index f68c02d..2ef4531 100644
+index 9b303f530..7e5b94257 100644
 --- a/src/main/java/com/tonikelope/megabasterd/SettingsDialog.java
 +++ b/src/main/java/com/tonikelope/megabasterd/SettingsDialog.java
-@@ -218,7 +218,7 @@ public class SettingsDialog extends javax.swing.JDialog {
+@@ -219,7 +219,7 @@ public class SettingsDialog extends javax.swing.JDialog {
  
              String default_download_dir = DBTools.selectSettingValue("default_down_dir");
  
@@ -62,3 +61,6 @@ index f68c02d..2ef4531 100644
  
              _download_path = default_download_dir;
  
+--
+2.42.0
+

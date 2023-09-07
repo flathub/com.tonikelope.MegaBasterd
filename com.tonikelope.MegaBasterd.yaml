@@ -56,9 +56,9 @@ modules:
         path: icon-128.png
       - type: file
         path: icon-256.png
-      - maven-dependencies.yaml
       - type: patch
-        path: detect-default-downloads-folder.patch
+        path: patches/Linux-Use-xdg-user-dir-to-get-the-default-Downloads-folder.patch
+      - maven-dependencies.yaml
     modules:
       - name: openjdk
         buildsystem: simple
