@@ -25,13 +25,13 @@ modules:
         JAVA_HOME: /usr/lib/sdk/openjdk17/jvm/openjdk-17
     build-commands:
       - mvn clean package
-      - install -Dm644 target/MegaBasterd-*-jar-with-dependencies.jar /app/share/com.tonikelope.MegaBasterd/megabasterd.jar
+      - install -Dm644 target/MegaBasterd-*-jar-with-dependencies.jar /app/share/$FLATPAK_ID/megabasterd.jar
       - install -Dm755 -t /app/bin megabasterd
-      - install -Dm644 -t /app/share/metainfo com.tonikelope.MegaBasterd.metainfo.xml
-      - install -Dm644 -t /app/share/applications com.tonikelope.MegaBasterd.desktop
-      - install -Dm644 icon-64.png /app/share/icons/hicolor/64x64/apps/com.tonikelope.MegaBasterd.png
-      - install -Dm644 icon-128.png /app/share/icons/hicolor/128x128/apps/com.tonikelope.MegaBasterd.png
-      - install -Dm644 icon-256.png /app/share/icons/hicolor/256x256/apps/com.tonikelope.MegaBasterd.png
+      - install -Dm644 -t /app/share/metainfo $FLATPAK_ID.metainfo.xml
+      - install -Dm644 -t /app/share/applications $FLATPAK_ID.desktop
+      - install -Dm644 icon-64.png /app/share/icons/hicolor/64x64/apps/$FLATPAK_ID.png
+      - install -Dm644 icon-128.png /app/share/icons/hicolor/128x128/apps/$FLATPAK_ID.png
+      - install -Dm644 icon-256.png /app/share/icons/hicolor/256x256/apps/$FLATPAK_ID.png
     sources:
       - type: archive
         url: https://github.com/tonikelope/megabasterd/archive/v7.76.tar.gz
