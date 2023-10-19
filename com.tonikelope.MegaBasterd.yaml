@@ -11,7 +11,6 @@ finish-args:
   - --socket=x11
   - --share=ipc
   - --device=dri
-  - --socket=pulseaudio
   - --env=PATH=/app/jre/bin:/app/bin:/usr/bin
   - --env=JAVA_HOME=/app/jre
   - --filesystem=xdg-download
