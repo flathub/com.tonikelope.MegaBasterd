@@ -5,7 +5,7 @@
   <launchable type="desktop-id">com.tonikelope.MegaBasterd.desktop</launchable>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-only</project_license>
-  <developer_name>A. L. Vivar</developer_name>
+  <developer_name>Antonio L. Vivar</developer_name>
   <summary>Download, upload or stream files from MEGA.nz</summary>
   <description>
     <p>Yet another unofficial (and ugly) cross-platform MEGA downloader/uploader/streaming suite.</p>
