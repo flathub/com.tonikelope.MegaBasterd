@@ -41,8 +41,8 @@ modules:
     sources:
       - type: archive
         dest-filename: megabasterd.tar.gz
-        url: https://api.github.com/repos/tonikelope/megabasterd/tarball/v8.14
-        sha256: 0dc2a6785a33381ff5019783abfacf86b890340b427dd81208b0d70a906899c8
+        url: https://api.github.com/repos/tonikelope/megabasterd/tarball/v8.15
+        sha256: 7b6f6fe2f4484662636fc8a12f145a68ec7bab019d3748256699a1249b0bbb0d
         x-checker-data:
           type: json
           url: https://api.github.com/repos/tonikelope/megabasterd/releases/latest
