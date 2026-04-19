@@ -28,6 +28,9 @@
   <url type="bugtracker">https://github.com/tonikelope/megabasterd/issues</url>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="8.23" date="2026-04-19">
+      <description></description>
+    </release>
     <release version="8.22" date="2024-08-06">
       <url>https://github.com/tonikelope/megabasterd/releases/tag/v8.22</url>
     </release>
