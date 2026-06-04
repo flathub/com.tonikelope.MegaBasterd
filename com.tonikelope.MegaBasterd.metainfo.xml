@@ -30,7 +30,7 @@
   <content_rating type="oars-1.1"/>
   <releases>
     <release version="8.57" date="2026-06-04">
-      <description></description>
+      <url>https://github.com/tonikelope/megabasterd/releases/tag/v8.57</url>
     </release>
     <release version="8.56" date="2026-05-31">
       <url>https://github.com/tonikelope/megabasterd/releases/tag/v8.56</url>
